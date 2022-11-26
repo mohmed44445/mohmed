@@ -10,8 +10,8 @@ jobs:
     steps:
     - name: 'ff1'
       run: ls
-
-    - uses: action/checkout@v3
+      
+    - uses: actions/checkout@v3
 
     - name: 'ff2'
       run: ls

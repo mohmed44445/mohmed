@@ -8,12 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 'ff1'
-      run: ls
-      
     - uses: actions/checkout@v3
-
-    - name: 'ff2'
-      run: ls
-   
+    - name: "Login to Docker hub"
+        run: docker login --username mohmednnnn --password dckr_pat_IknGPWEFWBrwaEgEkzvLeISH-uQ
+        
    

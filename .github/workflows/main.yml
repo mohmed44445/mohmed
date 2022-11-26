@@ -1,1 +1,16 @@
+on:
+  push:
+    branches:
+      - master
 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 'ff'
+      run: pwd
+
+    - name: 'mm'
+      run: echo ahm
+      

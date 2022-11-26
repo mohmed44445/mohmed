@@ -11,7 +11,7 @@ jobs:
     - name: 'ff1'
       run: ls
 
-      uses: action/checkout@v3
+    - uses: action/checkout@v3
 
     - name: 'ff2'
       run: ls

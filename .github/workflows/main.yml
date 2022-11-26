@@ -9,8 +9,6 @@ jobs:
 
     steps:
     - name: 'ff'
-      run: pwd
+      run: ls
 
-    - name: 'mm'
-      run: echo ahm
-      
+   

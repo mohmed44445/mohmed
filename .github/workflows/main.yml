@@ -8,7 +8,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 'ff'
+    - name: 'ff1'
       run: ls
 
+      uses: action/checkout@v3
+
+    - name: 'ff2'
+      run: ls
+   
    
